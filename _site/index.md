@@ -37,7 +37,7 @@ tags:
   </section>
     <section class="contact">
       <h2 id="con" >Say Hello</h2>
-      <p>Thank you for visiting my. If you wish to contact me with further inquiries<br> just send me an email <a href="mailto:perez.fidel@stu.bmcc.cuny.edu">here.</a></p>
+      <p>Thank you for visiting my. If you wish to contact me with further inquiries<br> just send me an email <a href="mailto:fidel.perez@stu.bmcc.cuny.edu">here.</a></p>
      </section>
 
    </main>
