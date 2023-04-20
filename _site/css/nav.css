@@ -82,6 +82,7 @@
     text-align: right;
     font-family: 'Raleway', sans-serif;
     
+    
   }
   .links.active{
     display: block;
@@ -93,9 +94,12 @@
     margin: 2rem 0;
     color: #fff;
   }
-  
+  .links a:hover {
+    background-color: turquoise;
+    display: block;
+  }
+
   .links {
-      transition: height .5s ease;
       overflow  : hidden;
   }
   
@@ -106,8 +110,8 @@
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #fff;
-  }
-  
+}
+
   @media screen and (min-width:750px){
     .hamburger{
       display: none;
@@ -124,6 +128,9 @@
       margin: 0 1em;
       color: #fff;
     }
+
+  
+
   }
   
   
