@@ -33,7 +33,7 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    font-family: 'Gloock', serif;
+    font-family: 'Dancing Script', cursive;
     color: #fff;
   }
   
@@ -80,7 +80,7 @@
     height: 0;
     flex-basis: 100%;
     text-align: right;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dancing Script', cursive;
     
     
   }
@@ -112,7 +112,7 @@
     color: #fff;
 }
 
-  @media screen and (min-width:750px){
+  @media screen and (min-width:850px){
     .hamburger{
       display: none;
     }

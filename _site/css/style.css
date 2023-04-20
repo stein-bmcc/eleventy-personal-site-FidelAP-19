@@ -1,41 +1,40 @@
 html {
     background-color: #A9A9A9 
 }
+* {
+    box-sizing: border-box;
+  }
 .About img{
-    height: 60%;
-    width: 60%;
+    height: 30%;
+    width: 30%;
     position: relative;
-    border-style: solid;
-    border-color: #fff;
     display: block;
     margin: auto;
 }
-
-.projects{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-evenly;
-    place-items: center;
+.project1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
-.project1{
-    width: auto; 
-    height: auto;
-    grid-column:1 / 2;
- }
- .project2{
-    width: auto; 
-    height: auto;
-    grid-column:2 / 2;
-    
- }
+.project2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+}
 h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   color: #fff;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
 }
 p{
 text-align: center;
-font-size: 25px;
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
 }
 
 .hero {	
@@ -59,20 +58,70 @@ font-size: 25px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 90px;
+        font-size: 10vw;
         text-align: center;
+        font-family: 'Dancing Script', cursive;
     }
 
     h3{
     text-align: center;
     font-size: 40px;
     color: #fff;
+    font-family: 'Dancing Script', cursive;
      }
 
-     @media screen and (min-width:750px){
-        img{
+.contact{
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 30px;
+    width: 70%;
+}
+
+footer{
+    background: #111;
+    width: 100vw;
+    padding: 10px;
+    color: #fff;
+    font-size: 1px;
+}
+footer p{
+    font-size: 18px;
+
+}
+
+     @media screen and (min-width:850px){
+
+        .projects{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-evenly;
+            place-items: center;
+        }
+        .project1{
+            width: auto; 
             height: auto;
-            width: auto;
+            grid-column:1 / 2;
+         }
+         .project1 img {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          
+         }
+         .project2{
+            width: auto; 
+            height: auto;
+            grid-column:2 / 2;
+            
+         }
+         .project2 img {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
      }
 
