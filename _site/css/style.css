@@ -5,8 +5,8 @@ html {
     box-sizing: border-box;
   }
 .About img{
-    height: 30%;
-    width: 30%;
+    width: 100%; 
+    height: auto;
     position: relative;
     display: block;
     margin: auto;
@@ -122,6 +122,13 @@ footer p{
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        .About img{
+            width: 42%; 
+            height: auto;
+            position: relative;
+            display: block;
+            margin: auto;
         }
      }
 
